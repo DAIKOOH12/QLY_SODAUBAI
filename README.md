@@ -4,7 +4,7 @@
 - Sổ ghi đầu bài được in theo mẫu của Bộ GD&ĐT; có đủ chữ ký trực tiếp (không sử dụng chữ ký có sẵn) của giáo viên chủ nhiệm, chữ ký của Hiệu trưởng
 ## Giấy phép của hệ thống
 - Hệ thống Quản Lý Sổ Đầu Bài được phát hành trên GNU/GPL version 2 hoặc các phiên bản mới nhất
-- Xem thông tin chi tiết về giấy phép [TẠI ĐÂY](https://github.com/DAIKOOH12/QLY_SODAUBAI)
+- Xem thông tin chi tiết về giấy phép [TẠI ĐÂY](https://github.com/DAIKOOH12/QLY_SODAUBAI/blob/main/LICENSE)
 >Hệ thống được phát triển bởi DEARNASOUL
 ```
 Thông tin liên hệ
