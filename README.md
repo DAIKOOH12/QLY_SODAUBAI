@@ -3,7 +3,7 @@
 - Sổ ghi đầu bài là cơ sở pháp lý giúp Hiệu trưởng và các cấp quản lý giáo dục kiểm soát việc thực hiện kế hoạch giáo dục và những công việc cụ thể của giáo viên bộ môn, giáo viên chủ nhiệm trên lớp, đồng thời nắm được tình hình của lớp trong từng thời gian nhất định.
 - Sổ ghi đầu bài được in theo mẫu của Bộ GD&ĐT; có đủ chữ ký trực tiếp (không sử dụng chữ ký có sẵn) của giáo viên chủ nhiệm, chữ ký của Hiệu trưởng
 ## Giấy phép của hệ thống
-- Hệ thống Quản Lý Sổ Đầu Bài được phát hành trên GNU/GPL version 2 hoặc các phiên bản mới nhất
+- Hệ thống Quản Lý Sổ Đầu Bài được phát hành trên GPL-v3.0 hoặc các phiên bản mới nhất
 - Xem thông tin chi tiết về giấy phép [TẠI ĐÂY](https://github.com/DAIKOOH12/QLY_SODAUBAI/blob/main/LICENSE)
 >Hệ thống được phát triển bởi DEARNASOUL
 ```
