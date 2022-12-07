@@ -23,4 +23,4 @@ Email: abcxyz@gmail.com
 ## Thông tin nhà phát triển
 <a href="https://github.com/DAIKOOH12/QLY_SODAUBAI/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=DAIKOOH12/QLY_SODAUBAI" />
-</a># QLY_SODAUBAI
+</a>
