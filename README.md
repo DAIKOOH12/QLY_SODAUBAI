@@ -20,6 +20,7 @@ Email: abcxyz@gmail.com
 ### Hướng dẫn thêm hệ thống Quản Lý Sổ Đầu Bài 
 1. Thực hiện clone git repository: `https://github.com/DAIKOOH12/QLY_SODAUBAI.git`.
 2. Thay thế folder cho thư mục `modules` cũ của dự án.
+3. Sau khi đã đưa cấu hình của hệ thống quản lí sổ đầu bài về đúng với các thư mục, truy cập vào localhost/[thư mục chứa hệ thống nukeviet] và vào mục `Thiết lập modules` để cấu hình cho website nhận module mới.
 ## Thông tin nhà phát triển
 <a href="https://github.com/DAIKOOH12/QLY_SODAUBAI/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=DAIKOOH12/QLY_SODAUBAI" />
