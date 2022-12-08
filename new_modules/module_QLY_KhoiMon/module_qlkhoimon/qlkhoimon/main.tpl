@@ -1,7 +1,7 @@
 <!-- BEGIN: main -->
 <div class="page">
     <form method='post'>
-        <input class='btn btn-success' type='button' name='themBoMon' value='Thêm bộ môn' data-toggle="modal" data-target="#exampleModal">
+        <input class='btn btn-success' type='button' name='themBoMon' value='Thêm khối môn' data-toggle="modal" data-target="#exampleModal">
     </form>
     <div>
         <form method='post'>
@@ -63,7 +63,7 @@
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy</button>
-            <input type="submit" class="btn btn-success" name="them" onclick="addBoMon()" value='save'>
+            <input type="submit" class="btn btn-success" name="them" value='save'>
         </div>
         </div>
     </div>
