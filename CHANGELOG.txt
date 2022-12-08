@@ -1,0 +1,7 @@
+CHANGE LOG: QLY_SODAUBAI
+v1.0: 
+-Chỉ có 1 module chính là quản lý bộ môn
+
+v1.0.1:
+-Đã thêm một số module mới giúp quản lý được nhiều dối tượng hơn trong hệ thống
+
