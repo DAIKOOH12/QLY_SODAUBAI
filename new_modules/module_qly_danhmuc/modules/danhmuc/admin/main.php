@@ -13,7 +13,10 @@ if (!defined('NV_IS_FILE_ADMIN')) {
 }
 
 $page_title = $lang_module['list'];
+
 // do something
+
+
 
 // $xtpl->parse('main');
 // $contents = $xtpl->text('main');
