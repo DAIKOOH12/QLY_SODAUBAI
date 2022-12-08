@@ -7,12 +7,13 @@
  * @license GPL-3.0
  * @see https://github.com/DAIKOOH12/QLY_SODAUBAI The DEARNASOUL's project
  */
+
 if (!defined('NV_ADMIN') or !defined('NV_MAINFILE')) {
     exit('Stop!!!');
 }
 
 $module_version = [
-    'name' => 'Quản lý lớp',
+    'name' => 'Quản lý khối môn',
     'modfuncs' => 'main',
     'submenu' => '',
     'is_sysmod' => 1,

@@ -1,28 +1,28 @@
 <!-- BEGIN: main -->
 <div class="page">
     <form method='post'>
-        <input class='btn btn-success' type='button' name='themKhoiMon' value='Thêm lớp' data-toggle="modal" data-target="#exampleModal">
+        <input class='btn btn-success' type='button' name='themKhoiMon' value='Thêm khối môn' data-toggle="modal" data-target="#exampleModal">
     </form>
     <div>
         <form method='post'>
         <table class="table">
             <tr>
                 <th class='text-center'>STT</th>
-                <th class='text-center'>Mã lớp</th>
+                <th class='text-center'>Mã khối môn</th>
+                <th class='text-center'>Môn học</th>
                 <th class='text-center'>Khối</th>
-                <th class='text-center'>Tên lớp</th>
-                <th class='text-center'>GVCN</th>
+                <th class='text-center'>Số tiết</th>
                 <th class='text-center'>Ghi chú</th>
                 <th class='text-center'>Tác vụ</th>
             </tr>
             <!-- BEGIN: loop -->
             <tr>
                 <td class='text-center'>{STT}</td>
-                <td class='text-center'>{LOP.malop}</td>
-                <td class='text-center'>{LOP.tenkhoi}</td>
-                <td class='text-center'>{LOP.tenlop}</td>
-                <td class='text-center'>{LOP.tengv}</td>
-                <td class='text-center'>{LOP.ghichu}</td>
+                <td class='text-center'>{KHOIMON.makhoimon}</td>
+                <td class='text-center'>{KHOIMON.tenmon}</td>
+                <td class='text-center'>{KHOIMON.tenkhoi}</td>
+                <td class='text-center'>{KHOIMON.sotiet}</td>
+                <td class='text-center'>{KHOIMON.ghichu}</td>
                 <td class='text-center'>
                     <button class='btn btn-primary' type='submit' name='sua' value={KHOIMON.makhoimon}>Sửa</button>
                 </td>
@@ -42,22 +42,22 @@
             </button>
         </div>
         <div class="modal-body">
-            <p>Mã lớp:</p>
-            <input name='malop' type='text' id="malop">
+            <p>Mã khối môn:</p>
+            <input name='makhoimon' type='text' id="makhoimon" value>
+            <p>Môn học:</p>
+            <select name='monhoc' id="monhoc">
+                <!-- BEGIN: mon-->
+                <option value={MON.mamon}>{MON.tenmon}</option>
+                <!-- END: mon-->
+            </select>
             <p>Khối:</p>
             <select name='khoi' id="khoi">
                 <!-- BEGIN: khoi-->
                 <option value={KHOI.makhoi}>{KHOI.tenkhoi}</option>
                 <!-- END: khoi-->
             </select>
-            <p>Tên lớp:</p>
-            <input name='tenlop' type='text' id="tenlop">
-            <p>GVCN:</p>
-            <select name='giaovien' id="giaovien">
-                <!-- BEGIN: giaovien-->
-                <option value={GV.magv}>{GV.tengv}</option>
-                <!-- END: giaovien-->
-            </select>
+            <p>Số tiết:</p>
+            <input name='sotiet' type='number' id="diachi">
             <p>Ghi chú:</p>
             <input name='ghichu' type='text' id="ghichu">
         </div>
