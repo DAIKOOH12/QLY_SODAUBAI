@@ -1,7 +1,11 @@
 <!-- BEGIN: main -->
 <div class="page">
     <form method='post'>
+<<<<<<< HEAD
         <input class='btn btn-success' type='button' name='themKhoiMon' value='Thêm lớp' data-toggle="modal" data-target="#exampleModal">
+=======
+        <input class='btn btn-success' type='button' name='themBoMon' value='Thêm lớp' data-toggle="modal" data-target="#exampleModal">
+>>>>>>> dung
     </form>
     <div>
         <form method='post'>
